@@ -1,8 +1,7 @@
 void AliceEventos() {//las imágenes están enumeradas según el diagrama de flujo.
   /*1*/  if (ventanas.equals("img1") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img2";
-  } 
-  if (ventanas.equals("img1") && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
+  } else if (ventanas.equals("img1") && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img3";
   }
   /*2*/  if (ventanas.equals("img2") && mouseX>XPos && mouseX<XPos+tamX && mouseY>YPos && mouseY<YPos+tamY) {
@@ -19,6 +18,14 @@ void AliceEventos() {//las imágenes están enumeradas según el diagrama de flu
   }
   /*7-6*/  if (ventanas.equals("img7") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY || ventanas.equals("img6")&& mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
     ventanas = "img9";
+  /*25,26,27,FinalN-M*/}else if(ventanas.equals("img25") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
+  ventanas = "img26";
+  }else if (ventanas.equals("img26") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
+  ventanas = "img27";
+  }if (ventanas.equals("img27") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
+    ventanas = "FinalN";
+  } else if (ventanas.equals("img27") && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
+    ventanas = "FinalM";
   }
   /*9*/  if (ventanas.equals("img9") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img12";
@@ -42,12 +49,25 @@ void AliceEventos() {//las imágenes están enumeradas según el diagrama de flu
   }
   /*21*/  if (ventanas.equals("img21") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img20";
+  }if (ventanas.equals("img20") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
+    ventanas = "img25";
   } 
   if (ventanas.equals("img21") && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img22";
   }
-  /*22-20*/  if (ventanas.equals("img22") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY || ventanas.equals("img20")&& mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
+  /*22-23-24-finalB*/  if (ventanas.equals("img22") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY+112 && mouseY<OPosY+112+tamY) {
+    ventanas = "img23";
+  }else if (ventanas.equals("img24") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY+112 && mouseY<OPosY+112+tamY) {
     ventanas = "FinalB";
+  }else if (ventanas.equals("FinalB") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3){
+  ventanas = "img";
+  }else if (ventanas.equals("img") && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY+112 && mouseY<OPosY+112+tamY) {
+    ventanas = "img1";
+  }
+  if (ventanas.equals("img23") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
+    ventanas = "FinalM";
+  } else if (ventanas.equals("img23") && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
+    ventanas = "img24";
   }
   /*4*/  if (ventanas.equals("img4") && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
     ventanas = "img8";
@@ -78,7 +98,7 @@ void AliceEventos() {//las imágenes están enumeradas según el diagrama de flu
   }
   if (ventanas.equals("FinalM") || ventanas.equals("FinalB") || ventanas.equals("FinalN")) {
   }
-  /*Finales*/  if (ventanas.equals("FinalN") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3 || ventanas.equals("FinalM") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3 || ventanas.equals("FinalB") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3) {
-    ventanas = "inicio1";
+  /*Finales*/  if (ventanas.equals("FinalN") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3 || ventanas.equals("FinalM") && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3) {
+    ventanas = "img";
   }
 }

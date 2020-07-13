@@ -1,5 +1,5 @@
 String ventanas;
-PImage inicio1, inicio2, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, FinalM, FinalB, FinalN;
+PImage inicio1, inicio2, img,img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22,img23,img24,img26,img25,img27, FinalM, FinalB, FinalN;
 int tamX, tamY, posX, posY, TwPosX, TwPosY, OPosX, OPosY, Mq, YPos, XPos, TPosX,FTam,FTamY,FTamX;
 
 void setup() {
@@ -11,11 +11,11 @@ void setup() {
 void draw() {
   AliceVentanas();
 }
-void keyPressed() {
+/*void keyPressed() {
   if (keyCode == '1') {
-    ventanas = "img1";
+    ventanas = "img21";
   }
-}
+}*/
 void mousePressed() { 
   AliceEventos();
 }

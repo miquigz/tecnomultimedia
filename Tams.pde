@@ -16,5 +16,8 @@ void Tams() {
   FTam = 100;
   FTamX = width/2 -FTam/2;
   FTamY = height- FTam;
+  
+  //JTamY
+  
   Mq = color(255, 200, 255);
 }

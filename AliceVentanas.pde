@@ -11,6 +11,10 @@ void AliceVentanas() {
   }
   if (frameCount>660 && ventanas.equals("inicio2")) {
     ventanas = "img1";
+  }if (ventanas.equals("img")) {
+    image(img, 0, 0);
+    fill(Mq);
+    rect(OPosX, OPosY+112, tamX, tamY);
   }
   if (ventanas.equals("img1")) {
     image(img1, 0, 0);
@@ -129,7 +133,18 @@ void AliceVentanas() {
   if (ventanas.equals("img22")) {
     image(img22, 0, 0);
     fill(Mq);
-    rect(OPosX, OPosY, tamX, tamY);
+    rect(OPosX, OPosY+112, tamX, tamY);
+  }
+  if (ventanas.equals("img23")) {
+    image(img23, 0, 0);
+    fill(Mq);
+    rect(posX, posY, tamX, tamY);
+    rect(TwPosX, posY, tamX, tamY);
+  }
+  if (ventanas.equals("img24")) {
+    image(img24, 0, 0);
+    fill(Mq);
+    rect(OPosX, OPosY+112, tamX, tamY);
   }
   if (ventanas.equals("FinalB")) {
     image(FinalB, 0, 0);
@@ -139,12 +154,27 @@ void AliceVentanas() {
   if (ventanas.equals("FinalM")) {
     image(FinalM, 0, 0);
     fill(Mq);
-    rect(OPosX, OPosY, tamX, tamY);
     rect(FTamX, FTamY, FTam, FTam-FTam/3);
   }
   if (ventanas.equals("FinalN")) {
     image(FinalN, 0, 0);
     fill(Mq);
     rect(FTamX, FTamY, FTam, FTam-FTam/3);
+  }
+  if (ventanas.equals("img25")) {
+    image(img25, 0, 0);
+    fill(Mq);
+    rect(OPosX, OPosY, tamX, tamY);
+  }
+  if (ventanas.equals("img26")) {
+    image(img26, 0, 0);
+    fill(Mq);
+    rect(OPosX, OPosY, tamX, tamY);
+  }
+  if (ventanas.equals("img27")) {
+    image(img27, 0, 0);
+    fill(Mq);
+    rect(posX, posY, tamX, tamY);
+    rect(TwPosX, posY, tamX, tamY);
   }
 }

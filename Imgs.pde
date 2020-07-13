@@ -1,6 +1,7 @@
 void imgs(){
   inicio1 = loadImage("inicio1.jpg");
   inicio2 = loadImage("inicio2.jpg");
+  img = loadImage("img.jpg");
   img1 = loadImage("img1.jpg");
   img2 = loadImage("img2.jpg");
   img3 = loadImage("img3.jpg");
@@ -23,6 +24,11 @@ void imgs(){
   img20 = loadImage("img20.jpg");
   img21 = loadImage("img21.jpg");
   img22 = loadImage("img22.jpg");
+  img23 = loadImage("img23.jpg");
+  img24 = loadImage("img24.jpg");
+  img25 = loadImage("img25.jpg");
+  img26 = loadImage("img26.jpg");
+  img27 = loadImage("img27.jpg");
   FinalM = loadImage("FinalMalo.jpg");
   FinalB = loadImage("FinalBueno.jpg");
   FinalN = loadImage("FinalNeutral.jpg");
