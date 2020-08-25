@@ -1,4 +1,4 @@
-Bueno profe acá está, es un poco larga y tiene 5 finales, pero bueno. Como voy a implementarle audio a la clacuando sese de audio, voy a hacer que las imagenes pesen menos y algunas imagenes repetirlas y solo cambiar el texto.
+Bueno profe acá está, es un poco larga y tiene 5 finales, pero bueno. Como voy a implementarle audio cuando sea la clase de audio, voy a hacer que las imagenes pesen menos y algunas imagenes repetirlas y solo cambiar el texto.
 
 Alice es una chica de 17 años, la cual se encuentra en sexto grado de
 secundaria, la misma está pasando por una etapa de su vida en la cual
