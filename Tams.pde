@@ -17,7 +17,5 @@ void tams() {
   tamWarn = 175;
   tamWarnY = height/2+35;
   Mq = color(255, 200, 255);
-}
-void booleansycolor(boolean comun, boolean medio, boolean abajo, boolean abajoMedio, boolean abajoFinales, int Mq) {
-  fill(Mq);
+  bools = 0;
 }

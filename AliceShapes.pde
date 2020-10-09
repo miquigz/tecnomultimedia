@@ -3,29 +3,29 @@ void aliceShapes() {
     image(shape2, OPosX-15, OPosY+101);
     cursor(HAND);
   }
-  /*comun*/  if (comun == true && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
+  /*comun*/  if (bools == 5 && mouseX>posX && mouseX<posX+tamX && mouseY>posY && mouseY<posY+tamY) {
     image(shape2, posX-15, posY-10);
     cursor(HAND);
-  } else if (comun == true && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
+  } else if (bools == 5 && mouseX>TwPosX && mouseX<TwPosX+tamX && mouseY>posY && mouseY<posY+tamY) {
     image(shape, TwPosX-15, TwPosY-10);
     cursor(HAND);
   }/*medio*/
-  if (medio == true && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
+  if (bools == 10 && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY && mouseY<OPosY+tamY) {
     image(shape2, OPosX-19, OPosY-10);
     cursor(HAND);
   }
-  /*abajo->*/  if (abajo == true && mouseX>XPos && mouseX<XPos+tamX && mouseY>YPos && mouseY<YPos+tamY) {
+  /*abajo->*/  if (bools == 15 && mouseX>XPos && mouseX<XPos+tamX && mouseY>YPos && mouseY<YPos+tamY) {
     image(shape2, XPos-15, YPos-10);
     cursor(HAND);
-  } else if (abajo == true && mouseX>TPosX && mouseX<TPosX+tamX && mouseY>YPos && mouseY<YPos+tamY) {
+  } else if (bools == 15 && mouseX>TPosX && mouseX<TPosX+tamX && mouseY>YPos && mouseY<YPos+tamY) {
     image(shape, TPosX-15, YPos-10);
     cursor(HAND);
   }/*<-abajo*/
-  /*abajoMedio*/  if (abajoMedio == true && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY+112 && mouseY<OPosY+112+tamY) {
+  /*abajoMedio*/  if (bools == 20 && mouseX>OPosX && mouseX<OPosX+tamX && mouseY>OPosY+112 && mouseY<OPosY+112+tamY) {
     image(shape2, OPosX-19, OPosY+112-10);
     cursor(HAND);
   }
-  /*abajoFinales*/  if (abajoFinales == true && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3) {
+  /*abajoFinales*/  if (bools == 25 && mouseX>FTamX && mouseX<FTamX+FTam && mouseY>FTamY && mouseY<FTamY+FTam-FTam/3) {
     image(shape2, OPosX-19, OPosY+112+21);
     cursor(HAND);
   }

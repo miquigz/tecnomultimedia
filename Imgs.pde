@@ -1,9 +1,7 @@
 void imgs() {
   inicio1 = loadImage("inicio1.jpg");
   inicio2 = loadImage("inicio2.jpg");
-  for (int i=0; i<img.length; i++) {
-    img[i] = loadImage("img"+i+".jpg");
-  }
+  for (int i=0; i<img.length; i++) {    img[i] = loadImage("img"+i+".jpg");    }
   final0 = loadImage("Final0.jpg");
   final1 = loadImage("Final1.jpg");
   final2 = loadImage("Final2.jpg");
