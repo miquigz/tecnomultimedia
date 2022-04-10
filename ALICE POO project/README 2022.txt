@@ -1,0 +1,1 @@
+Project passed to OOP, correction of bad practices and inefficiency in the code. (in progress)
